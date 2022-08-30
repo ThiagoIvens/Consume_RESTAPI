@@ -1,0 +1,39 @@
+.report-div {
+    min-width: 400px;
+    min-height: 500px;
+    padding: 1rem;
+    border-radius: 40px;
+    background-color: #ecf0f3;
+    box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
+}
+
+.report-div table {
+    width: 100%;
+    margin-top: 1.5rem;
+}
+
+.report-div table thead tr {
+    border-bottom: 1px solid #ccc;
+}
+
+.report-div table thead th {
+    text-align: center;
+    padding: .5rem;
+}
+
+.report-div table tbody tr td {
+    text-align: center;
+    padding-inline: 10px;
+}
+
+.report-div table tbody tr:nth-child(even) td {
+    background-color: #f7f7f7;
+}
+
+.no-bg {
+    background-color: transparent;
+}
+
+.img_table {
+    width: 20px;
+}
